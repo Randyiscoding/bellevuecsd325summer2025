@@ -1,6 +1,9 @@
 #Randy Easton
 #03/01/2024
 
+# edited 6/2/2025 to more closely align with the required assignment
+# added function to set cable length rate per feet
+
 
 '''
 Assignment:
@@ -25,20 +28,19 @@ strCompany = input("What is your Company's name? ")
 print("How much Fiber Optic cable would you like to purchase? ")
 strInput = input("In Feet: ") #Captures amount to be purchased User must enter in feet
 fltInput = float(strInput) #converts input from string to floating-point-integer data type
-varCharged = .87 #initialized variable for pricing per foot
-
-# region Decision Tree
-    #Decides what to charge user based on inputed length
-if fltInput >= 500:
-    varCharged = .50
-elif fltInput < 500 and fltInput >= 250:
-    varCharged = .70
-elif fltInput < 250 and fltInput >= 100:
-    varCharged = .80
-else:
-    pass #used to fix validation issues with code (python expects statement where none is needed)
-# endregion Decision Tree
-
+def cablerate(length):
+    # region Decision Tree
+        #Decides what to charge user based on inputed length
+    if length >= 500:
+        return .50
+    elif length < 500 and fltInput >= 250:
+        return .70
+    elif length < 250 and fltInput >= 100:
+        return .80
+    else:
+        return .87 #used to fix validation issues with code (python expects statement where none is needed)
+    # endregion Decision Tree
+varCharged = cablerate(fltInput)
 # region Receipt Area
 strCharged = str(varCharged)
 print("\nThank you, "+ strUserName +"\nThe Total being billed to "+ strCompany + " is presented below.\n Be advised the price is based on $" + strCharged + " per foot purchased")
