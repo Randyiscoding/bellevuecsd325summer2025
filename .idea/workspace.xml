@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8459784-dab5-4022-bb55-b76e2a0a89ab" name="Changes" comment="Module 2 assignment completed">
-      <change afterPath="$PROJECT_DIR$/Module-2/Easton-Assignment2_2.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module-3/Module 3.2 Assignment - Flowchart .pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module-3/chohan - RE.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module-3/chohan.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module-2/M2A1 - Fiber.py" beforeDir="false" afterPath="$PROJECT_DIR$/Module-2/M2A1 - Fiber.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module-2/Module 2.2 Assignment - Flowchart.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Module-2/Module 2.2 Assignment - Flowchart.pdf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +43,7 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Python.M2A1 - Fiber.executor": "Debug",
     "Python.Module 1 - BeerBottles.executor": "Run",
+    "Python.chohan.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -53,10 +54,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\spy__\PycharmProjects\bellevuecsd325summer2025\Module-3" />
       <recent name="C:\Users\spy__\PycharmProjects\bellevuecsd325summer2025\Module-2" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.M2A1 - Fiber">
+  <component name="RunManager" selected="Python.chohan">
     <configuration name="M2A1 - Fiber" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="bellevuecsd325summer2025" />
       <option name="ENV_FILES" value="" />
@@ -101,8 +103,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="chohan" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="bellevuecsd325summer2025" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Module-3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Module-3/chohan.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.chohan" />
         <item itemvalue="Python.M2A1 - Fiber" />
         <item itemvalue="Python.Module 1 - BeerBottles" />
       </list>
@@ -164,7 +189,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748888613646</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Module 2 assignment completed">
+      <option name="closed" value="true" />
+      <created>1748891657787</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1748891657787</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
