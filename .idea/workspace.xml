@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8459784-dab5-4022-bb55-b76e2a0a89ab" name="Changes" comment="Module 5 assignment uploaded">
+    <list default="true" id="e8459784-dab5-4022-bb55-b76e2a0a89ab" name="Changes" comment="Module 5 assignment completed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,26 +37,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Python.M2A1 - Fiber.executor": "Debug",
-    "Python.Module 1 - BeerBottles.executor": "Run",
-    "Python.chohan.executor": "Run",
-    "Python.chohan_RHE.executor": "Run",
-    "Python.forestfiresim.executor": "Run",
-    "Python.sitka_high_low_rhe.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/spy__/PycharmProjects/bellevuecsd325summer2025/Module-4",
-    "settings.editor.selected.configurable": "fileTemplates"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Python.M2A1 - Fiber.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.Module 1 - BeerBottles.executor&quot;: &quot;Run&quot;,
+    &quot;Python.chohan.executor&quot;: &quot;Run&quot;,
+    &quot;Python.chohan_RHE.executor&quot;: &quot;Run&quot;,
+    &quot;Python.forestfiresim.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sitka_high_low_rhe.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/spy__/PycharmProjects/bellevuecsd325summer2025/Module-4&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;fileTemplates&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\spy__\PycharmProjects\bellevuecsd325summer2025\Module-4" />
@@ -285,7 +285,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750121381850</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Module 5 assignment completed">
+      <option name="closed" value="true" />
+      <created>1750612291043</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1750612291043</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -310,6 +318,7 @@
     <MESSAGE value="Module 4 assignment uploaded" />
     <MESSAGE value="Module 4 assignment Completed" />
     <MESSAGE value="Module 5 assignment uploaded" />
-    <option name="LAST_COMMIT_MESSAGE" value="Module 5 assignment uploaded" />
+    <MESSAGE value="Module 5 assignment completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Module 5 assignment completed" />
   </component>
 </project>
