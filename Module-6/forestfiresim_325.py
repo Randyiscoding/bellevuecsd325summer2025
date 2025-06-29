@@ -97,11 +97,10 @@ def createNewForest():
         for y in range(HEIGHT):
             if forest.get((x, y)) == LAKE:
                 continue
-            else:
-                if (random.random() * 100) <= INITIAL_TREE_DENSITY:
+            elif (random.random() * 100) <= INITIAL_TREE_DENSITY:
                     forest[(x, y)] = TREE  # Start as a tree.
-                else:
-                    forest[(x, y)] = EMPTY  # Start as an empty space.
+            else:
+                forest[(x, y)] = EMPTY  # Start as an empty space.
     return forest
 
 
