@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8459784-dab5-4022-bb55-b76e2a0a89ab" name="Changes" comment="Module 5 assignment updated">
-      <change afterPath="$PROJECT_DIR$/Module-6/forestfiresim_325.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_6_1_2025_19_46__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="e8459784-dab5-4022-bb55-b76e2a0a89ab" name="Changes" comment="Module 6 assignment updated">
+      <change beforePath="$PROJECT_DIR$/Module-6/forestfiresim_325.py" beforeDir="false" afterPath="$PROJECT_DIR$/Module-6/forestfiresim_325.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -307,7 +305,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751044870587</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Module 6 assignment updated">
+      <option name="closed" value="true" />
+      <created>1751223694760</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1751223694760</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -334,6 +340,7 @@
     <MESSAGE value="Module 5 assignment uploaded" />
     <MESSAGE value="Module 5 assignment completed" />
     <MESSAGE value="Module 5 assignment updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="Module 5 assignment updated" />
+    <MESSAGE value="Module 6 assignment updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Module 6 assignment updated" />
   </component>
 </project>
