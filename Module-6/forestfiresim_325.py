@@ -27,7 +27,7 @@ LAKE = 'L'
 INITIAL_TREE_DENSITY = 0.20  # Amount of forest that starts with trees.
 GROW_CHANCE = 0.01  # Chance a blank space turns into a tree.
 FIRE_CHANCE = 0.01  # Chance a tree is hit by lightning & burns.
-LAKE_SIZE = 0.10 # Size of the Lake
+LAKE_SIZE = 0.10    # Size of the Lake
 
 # (!) Try setting the pause length to 1.0 or 0.0:
 PAUSE_LENGTH = 0.5
