@@ -1,3 +1,5 @@
+#Randy Easton, Rob Kiser, and Daniel Preller, 02 July 2025, Assignment 6.2
+
 """Forest Fire Sim, modified by Sue Sampson, based on a program by Al Sweigart
 A simulation of wildfires spreading in a forest. Press Ctrl-C to stop.
 Inspired by Nicky Case's Emoji Sim http://ncase.me/simulating/model/
@@ -27,7 +29,12 @@ LAKE = 'L'
 INITIAL_TREE_DENSITY = 0.20  # Amount of forest that starts with trees.
 GROW_CHANCE = 0.01  # Chance a blank space turns into a tree.
 FIRE_CHANCE = 0.01  # Chance a tree is hit by lightning & burns.
-LAKE_SIZE = 0.10    # Size of the Lake
+LAKE_CHANCE = 75  # Chance a blank space turns into a lake. Used to create a randomized
+#lake on startup.
+lake_start_x = 20
+lake_start_y = 10
+
+MAX_LAKE_SIZE = 450 # Maximum size of the lake, approximately 25% of the whole space
 
 # (!) Try setting the pause length to 1.0 or 0.0:
 PAUSE_LENGTH = 0.5
@@ -80,25 +87,38 @@ def main():
 def createNewForest():
     """Returns a dictionary for a new forest data structure."""
     forest = {'width': WIDTH, 'height': HEIGHT}
-    lake_cells = int(WIDTH * HEIGHT * LAKE_SIZE)
 
-    lake_width = int(lake_cells ** 0.5)
-    lake_height = lake_cells // lake_width
-    start_x = WIDTH // 2 - lake_width // 2
-    start_y = HEIGHT // 2 - lake_height // 2
+    lake_spaces = 0
 
-    # Place lake
-    for x in range(start_x, start_x + lake_width):
-        for y in range(start_y, start_y + lake_height):
-            if 0 <= x < WIDTH and 0 <= y < HEIGHT:
+    for x in range(WIDTH):
+        for y in range(HEIGHT):
+            if x == lake_start_x and y == lake_start_y:
                 forest[(x, y)] = LAKE
+                #This is our "lake seed".
+                lake_spaces += 1
+
+            elif forest.get(((x-1), y)) == LAKE and (random.random() * 100 <= LAKE_CHANCE) and lake_spaces <= MAX_LAKE_SIZE:
+                forest[(x, y)] = LAKE
+                lake_spaces +=1
+            #Randomly determines if the next space will be a lake. NOTE: LAKE_CHANCE is
+            #set to 75% as a result of my playing with the code. Too low and we only have
+            #a puddle. Too high and it becomes a square. - RWK
+
+            elif forest.get((x, (y-1))) == LAKE and (random.random() * 100 <= LAKE_CHANCE) and lake_spaces <= MAX_LAKE_SIZE:
+                forest[(x, y)] = LAKE
+                lake_spaces += 1
+            #Randomly determines if the next space will be a lake based on the space
+            #above it. Due to the random generation of lake spaces, the lakes that form
+            #will often have "islands" in them but natural lakes have those too so I
+            #left it as is. - RWK
+
 
     for x in range(WIDTH):
         for y in range(HEIGHT):
             if forest.get((x, y)) == LAKE:
                 continue
             elif (random.random() * 100) <= INITIAL_TREE_DENSITY:
-                    forest[(x, y)] = TREE  # Start as a tree.
+                forest[(x, y)] = TREE  # Start as a tree.
             else:
                 forest[(x, y)] = EMPTY  # Start as an empty space.
     return forest
