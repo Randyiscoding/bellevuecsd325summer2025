@@ -372,4 +372,7 @@
     <MESSAGE value="Module 6 assignment updated" />
     <option name="LAST_COMMIT_MESSAGE" value="Module 6 assignment updated" />
   </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/bellevuecsd325summer2025$forestfiresim_325.coverage" NAME="forestfiresim_325 Coverage Results" MODIFIED="1751837494941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Module-6" />
+  </component>
 </project>

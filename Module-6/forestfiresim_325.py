@@ -1,4 +1,4 @@
-#Randy Easton, Rob Kiser, and Daniel Preller, 02 July 2025, Assignment 6.2
+# Randy Easton, Rob Kiser, and Daniel Preller, 02 July 2025, Assignment 6.2
 
 """Forest Fire Sim, modified by Sue Sampson, based on a program by Al Sweigart
 A simulation of wildfires spreading in a forest. Press Ctrl-C to stop.
