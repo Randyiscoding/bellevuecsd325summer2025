@@ -4,53 +4,52 @@
 # Assignment: Module 7.2 Assignment: Test Cases
 # --------------------------------------------------------
 # Purpose:
-# [Brief one-sentence description of what the program does]
+# Used to run city functions, in particular the final bullet point:
+# Run city_functions.py. Call the function at least three times using a City, Country for one, City, Country,
+# Population for the next and City, Country, Population, Language for the last. Excecute city_functions.py
+# and take a screenshot of the result. Paste that screenshot into your Word document.
 # --------------------------------------------------------
+
+from city_functions import citycountry as cc
 
 def main():
     # Main function to control program flow
     # First Run
     city = input("What city are you in?: ")
     country = input("What Country are you in?: ")
-    population = int(input("What is the population of the city?: "))
+
     while True:
         try:
-            print(citycountry(city, country, population))
+            print(cc(city, country))
             break
         except TypeError:
             print("Can only Accept words and letter. Try Again.")
             main()
     # Second Run
-    city = "Santiago"
-    country = "Chile"
-    print(citycountry(city, country))
+    city2 = input("What city are you in?: ")
+    country2 = input("What Country are you in?: ")
+    population2 = int(input("What is the population of the city?: "))
+
+    while True:
+        try:
+            print(cc(city2, country2, population=population2))
+            break
+        except TypeError:
+            print("Can only Accept words and letter. Try Again.")
+            main()
 
     # Third Run
-    print(citycountry(city="Wakanda", country="Nigeria", population=5789943))
-    pass
-
-# Remove =None to make population required again
-def citycountry(city, country, population=None):
-    """
-    Accepts three parameters: a city name, a country name and, a population size, Then concats them into one string
-    """
-    # checks if optional parameter is filled
-    if population != None:
-        #check if Parameters have correct typing
-        if isinstance(city, str) and isinstance(country, str) and isinstance(population, int):
-            return f"{city}, {country} - population {population}"
-        else:
-            # Throws an error, Error handling occurs in main loop
-            return TypeError
-    else:
-        if isinstance(city, str) and isinstance(country, str):
-            return city + ", " + country
-        else:
-            # Throws an error, Error handling occurs in main loop
-            return TypeError
-    pass
-
-
+    city3 = input("What city are you in?: ")
+    country3 = input("What Country are you in?: ")
+    population3 = int(input("What is the population of the city?: "))
+    language3 = input("What language do you speak?: ")
+    while True:
+        try:
+            print(cc(city3, country3, language3, population3))
+            break
+        except TypeError:
+            print("Can only Accept words and letter. Try Again.")
+            main()
 # Program starts here
 if __name__ == "__main__":
     main()

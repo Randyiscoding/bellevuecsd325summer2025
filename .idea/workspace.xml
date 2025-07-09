@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8459784-dab5-4022-bb55-b76e2a0a89ab" name="Changes" comment="Misc Changes">
-      <change afterPath="$PROJECT_DIR$/Module-6/Modules 6.2 Assignment - Modded Forest Fire Simulation_ Flowchart.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/bellevuecsd325summer2025.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/bellevuecsd325summer2025.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="e8459784-dab5-4022-bb55-b76e2a0a89ab" name="Changes" comment="Module 6 assignment Completed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module-6/forestfiresim_325.py" beforeDir="false" afterPath="$PROJECT_DIR$/Module-6/forestfiresim_325.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module-7/city_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/Module-7/city_functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module-7/mod_city_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/Module-7/mod_city_functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module-7/test_cities.py" beforeDir="false" afterPath="$PROJECT_DIR$/Module-7/test_cities.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +27,18 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Randyiscoding&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Randyiscoding/bellevuecsd325summer2025.git&quot;,
+    &quot;accountId&quot;: &quot;c367ff37-c0cc-4b02-b90c-66cb2bc89088&quot;
+  }
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -47,6 +58,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Python tests.Python tests in test_cities.py.executor": "Run",
     "Python.M2A1 - Fiber.executor": "Debug",
     "Python.Module 1 - BeerBottles.executor": "Run",
     "Python.chohan.executor": "Run",
@@ -54,17 +66,23 @@
     "Python.city_functions.executor": "Run",
     "Python.forestfiresim.executor": "Run",
     "Python.forestfiresim_325.executor": "Run",
+    "Python.mod_city_functions.executor": "Run",
     "Python.scratch_4.executor": "Run",
     "Python.sitka_high_low_rhe.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/spy__/PycharmProjects/bellevuecsd325summer2025/Module-6",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "fileTemplates",
-    "two.files.diff.last.used.file": "C:/Users/Randy/Downloads/forestfiresim_325.py"
+    "two.files.diff.last.used.file": "C:/Users/Randy/Downloads/forestfiresim_325.py",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -80,7 +98,7 @@
       <recent name="C:\Users\spy__\PycharmProjects\bellevuecsd325summer2025\Module-2" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.forestfiresim_325">
+  <component name="RunManager" selected="Python.city_functions">
     <configuration name="city_functions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="bellevuecsd325summer2025" />
       <option name="ENV_FILES" value="" />
@@ -96,29 +114,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Module-7/city_functions.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="forestfiresim" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="bellevuecsd325summer2025" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Module-5" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Module-5/forestfiresim.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -150,6 +145,29 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="mod_city_functions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="bellevuecsd325summer2025" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Module-7" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Module-7/mod_city_functions.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="scratch_4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="bellevuecsd325summer2025" />
       <option name="ENV_FILES" value="" />
@@ -173,43 +191,37 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="sitka_high_low_rhe" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in test_cities.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="bellevuecsd325summer2025" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Module-4" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Module-7" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Module-4/sitka_high_low_rhe.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Module-7/test_cities.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.forestfiresim_325" />
         <item itemvalue="Python.city_functions" />
+        <item itemvalue="Python.mod_city_functions" />
+        <item itemvalue="Python tests.Python tests in test_cities.py" />
+        <item itemvalue="Python.forestfiresim_325" />
         <item itemvalue="Python.scratch_4" />
-        <item itemvalue="Python.forestfiresim" />
-        <item itemvalue="Python.sitka_high_low_rhe" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-09665e90c3a7-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.15026.15" />
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-PY-251.25410.159" />
+        <option value="bundled-python-sdk-e0ed3721d81e-36ea0e71a18c-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.25410.159" />
       </set>
     </attachedChunks>
   </component>
@@ -221,6 +233,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1748820874353</updated>
+      <workItem from="1752031416338" duration="7890000" />
     </task>
     <task id="LOCAL-00001" summary="Misc Updates">
       <option name="closed" value="true" />
@@ -342,8 +355,27 @@
       <option name="project" value="LOCAL" />
       <updated>1751224910417</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Module 6 assignment Completed">
+      <option name="closed" value="true" />
+      <created>1751837678256</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1751837678256</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Module 6 assignment Completed">
+      <option name="closed" value="true" />
+      <created>1751850601033</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1751850601033</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -370,9 +402,13 @@
     <MESSAGE value="Module 5 assignment completed" />
     <MESSAGE value="Module 5 assignment updated" />
     <MESSAGE value="Module 6 assignment updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="Module 6 assignment updated" />
+    <MESSAGE value="Module 6 assignment Completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Module 6 assignment Completed" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/bellevuecsd325summer2025$mod_city_functions.coverage" NAME="mod_city_functions Coverage Results" MODIFIED="1752041160197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Module-7" />
     <SUITE FILE_PATH="coverage/bellevuecsd325summer2025$forestfiresim_325.coverage" NAME="forestfiresim_325 Coverage Results" MODIFIED="1751837494941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Module-6" />
+    <SUITE FILE_PATH="coverage/bellevuecsd325summer2025$.coverage" NAME=" Coverage Results" MODIFIED="1752039694302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Module-7" />
+    <SUITE FILE_PATH="coverage/bellevuecsd325summer2025$city_functions.coverage" NAME="city_functions Coverage Results" MODIFIED="1752041891919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Module-7" />
   </component>
 </project>

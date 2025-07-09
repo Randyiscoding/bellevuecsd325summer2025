@@ -4,7 +4,7 @@
 # Assignment: Module 7.2 Assignment: Test Cases
 # --------------------------------------------------------
 # Purpose:
-# [Brief one-sentence description of what the program does]
+# Tests function from city_functions.py
 # --------------------------------------------------------
 
 import unittest
