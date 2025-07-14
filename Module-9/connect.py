@@ -4,7 +4,7 @@
 # Assignment: Module 9: JSON and Application Programming Interfaces (APIs)
 # --------------------------------------------------------
 # Purpose:
-# [Brief one-sentence description of what the program does]
+# Tutorial on how to use APIs
 # --------------------------------------------------------
 
 
@@ -18,9 +18,6 @@ def main():
     print(pokedex(rand))
 
 
-# Function definitions go here
-# Use descriptive names and explain any non-obvious logic
-# Example:
 def apitutorial1():
     """
     Tutorial from https://www.dataquest.io/blog/api-in-python/ for astronaughts
@@ -51,6 +48,9 @@ def apitutorial2():
     # print(jsondataformated)
 
 def pokedex(pokenum):
+    '''
+    Gets pokemon information based on pokedex number
+    '''
     import requests, json
     baseurl = 'https://pokeapi.co/api/v2/pokemon/'
     response = requests.get(f'{baseurl}{pokenum}/')
