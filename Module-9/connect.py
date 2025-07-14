@@ -13,8 +13,8 @@ import requests
 def main():
     import random
     rand = random.randint(1, 1025)
-    # print(apitutorial1())
-    # print(apitutorial2())
+    print(apitutorial1())
+    print(apitutorial2())
     print(pokedex(rand))
 
 
