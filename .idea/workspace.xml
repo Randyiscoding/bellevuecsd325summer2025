@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8459784-dab5-4022-bb55-b76e2a0a89ab" name="Changes" comment="Module 8 Assignment: Misc update">
-      <change afterPath="$PROJECT_DIR$/Module-9/connect.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module-7/Module 7.2 Assignment  Test Cases .gdoc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module-8/Module 8.2 Assignment  JSON Practice.gdoc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module-8/Module 8.2 Assignment_ JSON Practice.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/bellevuecsd325summer2025.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/bellevuecsd325summer2025.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,11 +94,11 @@
       <recent name="C:\Users\spy__\PycharmProjects\bellevuecsd325summer2025\Module-4" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\spy__\PycharmProjects\bellevuecsd325summer2025\Module-8" />
       <recent name="C:\Users\Randy\PycharmProjects\bellevuecsd325summer2025\Module-9" />
       <recent name="C:\Users\Randy\PycharmProjects\bellevuecsd325summer2025\Module-8" />
       <recent name="C:\Users\Randy\PycharmProjects\bellevuecsd325summer2025\Module-7" />
       <recent name="C:\Users\Randy\PycharmProjects\bellevuecsd325summer2025\Module-6" />
-      <recent name="C:\Users\spy__\PycharmProjects\bellevuecsd325summer2025\Module-5" />
     </key>
   </component>
   <component name="RunManager" selected="Python.Student_list">
@@ -219,8 +223,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-PY-251.25410.159" />
-        <option value="bundled-python-sdk-e0ed3721d81e-36ea0e71a18c-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.25410.159" />
+        <option value="bundled-python-sdk-09665e90c3a7-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.15026.15" />
       </set>
     </attachedChunks>
   </component>
