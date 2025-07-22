@@ -13,12 +13,31 @@ import requests
 def main():
     import random
     rand = random.randint(1, 1025)
-    print(apitutorial1())
-    print(apitutorial2())
-    print(pokedex(rand))
+    print("Hey Prof Parks, in an effort to make this slightly more readable I added the option to see each part")
+    print("of this code run, or you can run it all at once. So select 1 for the first part of the tutorial.")
+    print("press 2 for the second part of the tutorial, press three for question 6: The pokedex or, press anykey")
+    print("for a wall of text")
+    selection = input("1,2 or, 3?: ")
+    match selection:
+        case "1":
+            print("API Tutorial Part 1 Status Code and Formatting using dumps\n")
+            print(api_tutorial_1())
+        case "2":
+            print("\n \n API Tutorial Part 2: Filtering \n")
+            print(api_tutorial_2())
+        case "3":
+            print("\n API Module 9 part 6: Application of Lesson\n")
+            print(pokedex(rand))
+        case _:
+            print("API Tutorial Part 1 Status Code and Formatting using dumps\n")
+            print(api_tutorial_1())
+            print("\n \n API Tutorial Part 2: Filtering \n")
+            print(api_tutorial_2())
+            print("\n API Module 9 part 6: Application of Lesson\n")
+            print(pokedex(rand))
 
 
-def apitutorial1():
+def api_tutorial_1():
     """
     Tutorial from https://www.dataquest.io/blog/api-in-python/ for astronaughts
     """
@@ -31,7 +50,7 @@ def apitutorial1():
 
     print(jsondataformated)
 
-def apitutorial2():
+def api_tutorial_2():
     """
     Dataquest Tutorial Filter section https://www.dataquest.io/blog/api-in-python/
     """
@@ -54,7 +73,11 @@ def pokedex(pokenum):
     import requests, json
     baseurl = 'https://pokeapi.co/api/v2/pokemon/'
     response = requests.get(f'{baseurl}{pokenum}/')
+    data = response.json()
+    poke_id = data['id']
+    poke_name = data['name']
     print(f"The response code for this address is: {response.status_code} \n")  # Prints Server/client Status code
+    print(f"You generated Pokemon #{poke_id}: {poke_name} \n \n")
     print(f"\n {response.json()}")  # unformated response from Json
     jsondataformated = json.dumps(response.json(), sort_keys=True, indent=4)
 
