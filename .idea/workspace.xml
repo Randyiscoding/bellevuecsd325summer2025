@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8459784-dab5-4022-bb55-b76e2a0a89ab" name="Changes" comment="Module 10 Assignment: started">
+    <list default="true" id="e8459784-dab5-4022-bb55-b76e2a0a89ab" name="Changes" comment="Module 9 Assignment: updated">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module-9/connect.py" beforeDir="false" afterPath="$PROJECT_DIR$/Module-9/connect.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module-10/Easton_To-Do_App.py" beforeDir="false" afterPath="$PROJECT_DIR$/Module-10/Easton_To-Do_App.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +76,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/spy__/PycharmProjects/bellevuecsd325summer2025/Module-6&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/spy__/PycharmProjects/bellevuecsd325summer2025/Module-9&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
@@ -88,6 +88,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\spy__\PycharmProjects\bellevuecsd325summer2025\Module-9" />
       <recent name="C:\Users\spy__\PycharmProjects\bellevuecsd325summer2025\Module-6" />
       <recent name="C:\Users\spy__\PycharmProjects\bellevuecsd325summer2025\Module-4" />
     </key>
@@ -99,7 +100,7 @@
       <recent name="C:\Users\Randy\PycharmProjects\bellevuecsd325summer2025\Module-7" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.connect">
+  <component name="RunManager" selected="Python.Easton_To-Do_App">
     <configuration name="Easton_To-Do_App" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="bellevuecsd325summer2025" />
       <option name="ENV_FILES" value="" />
@@ -215,8 +216,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.connect" />
         <item itemvalue="Python.Easton_To-Do_App" />
+        <item itemvalue="Python.connect" />
         <item itemvalue="Python.Student_list" />
         <item itemvalue="Python.city_functions" />
         <item itemvalue="Python.mod_city_functions" />
@@ -473,7 +474,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752531487624</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Module 9 Assignment: updated">
+      <option name="closed" value="true" />
+      <created>1753159586106</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1753159586106</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -511,9 +520,9 @@
     <MESSAGE value="Module 8 Assignment Word Doc Complete" />
     <MESSAGE value="Module 8 Assignment: Misc update" />
     <MESSAGE value="Module 8 Assignment: Completed" />
-    <MESSAGE value="Module 9 Assignment: updated" />
     <MESSAGE value="Module 10 Assignment: started" />
-    <option name="LAST_COMMIT_MESSAGE" value="Module 10 Assignment: started" />
+    <MESSAGE value="Module 9 Assignment: updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Module 9 Assignment: updated" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/bellevuecsd325summer2025$mod_city_functions.coverage" NAME="mod_city_functions Coverage Results" MODIFIED="1752041160197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Module-7" />
