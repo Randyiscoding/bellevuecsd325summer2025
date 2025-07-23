@@ -76,7 +76,7 @@ class Todo(tk.Tk):
 
     def remove_task(self, event):
         task = event.widget
-        if msg.askyesno("Confirm Deletion?", "Delete " + task.cget("text") + "?"):
+        if msg.askyesno("Really Delete?", "Delete " + task.cget("text") + "?"):
             self.tasks.remove(event.widget)
             event.widget.destroy()
             self.recolour_tasks()
