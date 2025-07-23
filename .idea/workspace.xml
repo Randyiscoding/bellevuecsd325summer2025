@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8459784-dab5-4022-bb55-b76e2a0a89ab" name="Changes" comment="Module 9 Assignment: updated">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module-10/Easton_To-Do_App.py" beforeDir="false" afterPath="$PROJECT_DIR$/Module-10/Easton_To-Do_App.py" afterDir="false" />
-    </list>
+    <list default="true" id="e8459784-dab5-4022-bb55-b76e2a0a89ab" name="Changes" comment="Module 10 Assignment: updated (Python complete)" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -482,7 +479,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753159586106</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Module 10 Assignment: updated (Python complete)">
+      <option name="closed" value="true" />
+      <created>1753249581071</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1753249581071</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -522,7 +527,8 @@
     <MESSAGE value="Module 8 Assignment: Completed" />
     <MESSAGE value="Module 10 Assignment: started" />
     <MESSAGE value="Module 9 Assignment: updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="Module 9 Assignment: updated" />
+    <MESSAGE value="Module 10 Assignment: updated (Python complete)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Module 10 Assignment: updated (Python complete)" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/bellevuecsd325summer2025$mod_city_functions.coverage" NAME="mod_city_functions Coverage Results" MODIFIED="1752041160197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Module-7" />
